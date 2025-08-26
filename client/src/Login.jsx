@@ -19,6 +19,7 @@ export default function Login() {
     }));
     console.log("form data:", formData);
     console.log("name:", name);
+    console.log("value:", value);
   };
 
   const handleSubmit = async (e) => {
