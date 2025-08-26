@@ -17,7 +17,7 @@ export default function Login() {
       ...prevData,
       [name]: value,
     }));
-    console.log(formData);
+    console.log("form data:", formData);
   };
 
   const handleSubmit = async (e) => {
