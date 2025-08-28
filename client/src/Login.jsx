@@ -43,7 +43,7 @@ export default function Login() {
           draggable: true,
           progress: undefined,
           theme: "dark",
-          transition: Bounce,
+        //   transition: Bounce,
         });
 
         navigate("/dashboard"); // Or wherever you want to send the user
